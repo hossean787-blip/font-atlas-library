@@ -28,11 +28,11 @@ def main():
             raw_license=read(license_file['download_url'],200000)
             if b'SIL OPEN FONT LICENSE' not in raw_license.upper() and b'OPEN FONT LICENSE' not in raw_license.upper():
                 raise ValueError('Unexpected license header')
-            candidates=sorted((f for f in names.values() if re.search(r'\\.ttf$',f['name'],re.I) and f.get('size',0)<=4500000),key=lambda f:('[' in f['name'], 'regular' in f['name'].lower(),f['name']),reverse=True)
+            candidates=sorted((f for f in names.values() if re.search(r'\.ttf$',f['name'],re.I) and f.get('size',0)<=4500000),key=lambda f:('[' in f['name'], 'regular' in f['name'].lower(),f['name']),reverse=True)
             if not candidates: raise ValueError('No root TTF below size limit')
             chosen=candidates[0]
             blob=read(chosen['download_url'],4500000)
-            if blob[:4] not in (b'\\x00\\x01\\x00\\x00',b'OTTO',b'true'): raise ValueError('Unexpected font signature')
+            if blob[:4] not in (b'\x00\x01\x00\x00',b'OTTO',b'true'): raise ValueError('Unexpected font signature')
             directory=BASE/slug
             directory.mkdir(exist_ok=True)
             (directory/'font.ttf').write_bytes(blob)
@@ -41,6 +41,6 @@ def main():
             print(f'SYNCED {slug}: {chosen["name"]} ({len(blob)} bytes)')
         except Exception as err:
             print(f'SKIPPED {slug}: {err}')
-    (BASE/'manifest.json').write_text(json.dumps({'version':1,'fonts':results},indent=2)+'\\n',encoding='utf-8')
+    (BASE/'manifest.json').write_text(json.dumps({'version':1,'fonts':results},indent=2)+'\n',encoding='utf-8')
     if not results: raise SystemExit('No legally checkable font could be retrieved')
 if __name__=='__main__': main()
