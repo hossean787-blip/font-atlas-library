@@ -1,0 +1,39 @@
+name: Production smoke checks
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'app.js'
+      - 'sdk/**'
+      - 'api/v1/fonts.json'
+      - 'assets/fonts/manifest.json'
+      - 'tests/**'
+      - '.github/workflows/production-smoke.yml'
+permissions:
+  contents: read
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run all checks including mirrored font integrity
+        run: npm test
+  public-site:
+    needs: quality
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify published endpoints
+        shell: bash
+        run: |
+          set -euo pipefail
+          base='https://hossean787-blip.github.io/font-atlas-library'
+          for path in '/' '/app.js' '/api/v1/fonts.json' '/assets/fonts/manifest.json'; do
+            curl --fail --location --retry 6 --retry-delay 5 --max-time 30 --output /tmp/result "$base$path"
+            test -s /tmp/result
+          done
+          curl --fail --location --retry 6 --max-time 30 "$base/api/v1/fonts.json" | python3 -c 'import json,sys; d=json.load(sys.stdin); assert d["total"] == len(d["fonts"]); assert d["total"] >= 117'
