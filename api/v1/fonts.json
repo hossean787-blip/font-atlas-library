@@ -1,8 +1,9 @@
 {
   "schemaVersion": "1.0.0",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "generatedAt": "2026-10-28",
-  "notice": "Entries are references, not redistributed font binaries. Verify each upstream license.",
+  "notice": "Reference catalog. Fonts are not hosted here; check upstream font license and availability.",
+  "total": 117,
   "fonts": [
     {
       "id": "vazirmatn",
@@ -12,6 +13,10 @@
         "latin"
       ],
       "category": "sans-serif",
+      "groups": [
+        "persian",
+        "arabic"
+      ],
       "source": "https://github.com/rastikerdar/vazirmatn",
       "cssFamily": "Vazirmatn",
       "provider": "google-fonts",
@@ -26,9 +31,148 @@
         "latin"
       ],
       "category": "sans-serif",
+      "groups": [
+        "persian"
+      ],
       "source": "https://github.com/aminabedi68/Estedad",
       "cssFamily": "Estedad",
       "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "shabnam",
+      "name": "Shabnam",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "persian"
+      ],
+      "source": "https://github.com/rastikerdar/shabnam-font",
+      "cssFamily": "Shabnam",
+      "provider": "upstream",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "sahel",
+      "name": "Sahel",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "persian"
+      ],
+      "source": "https://github.com/rastikerdar/sahel-font",
+      "cssFamily": "Sahel",
+      "provider": "upstream",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "samim",
+      "name": "Samim",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "persian"
+      ],
+      "source": "https://github.com/rastikerdar/samim-font",
+      "cssFamily": "Samim",
+      "provider": "upstream",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "parastoo",
+      "name": "Parastoo",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "persian"
+      ],
+      "source": "https://github.com/rastikerdar/parastoo-font",
+      "cssFamily": "Parastoo",
+      "provider": "upstream",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "tanha",
+      "name": "Tanha",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "persian"
+      ],
+      "source": "https://github.com/rastikerdar/tanha-font",
+      "cssFamily": "Tanha",
+      "provider": "upstream",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "gandom",
+      "name": "Gandom",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "persian"
+      ],
+      "source": "https://github.com/rastikerdar/gandom-font",
+      "cssFamily": "Gandom",
+      "provider": "upstream",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "nahid",
+      "name": "Nahid",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "persian"
+      ],
+      "source": "https://github.com/rastikerdar/nahid-font",
+      "cssFamily": "Nahid",
+      "provider": "upstream",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "mirza",
+      "name": "Mirza",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "persian",
+        "arabic"
+      ],
+      "source": "https://github.com/rastikerdar/mirza-font",
+      "cssFamily": "Mirza",
+      "provider": "upstream",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "vazir-code",
+      "name": "Vazir Code",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "persian"
+      ],
+      "source": "https://github.com/rastikerdar/vazir-code-font",
+      "cssFamily": "Vazir Code",
+      "provider": "upstream",
       "license": "verify-upstream"
     },
     {
@@ -39,9 +183,28 @@
         "latin"
       ],
       "category": "display",
+      "groups": [
+        "persian",
+        "arabic"
+      ],
       "source": "https://fonts.google.com/specimen/Lalezar",
       "cssFamily": "Lalezar",
       "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "sepehr",
+      "name": "Sepehr",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "persian"
+      ],
+      "source": "https://github.com/googlefonts/sepehr-fonts",
+      "cssFamily": "Sepehr",
+      "provider": "upstream",
       "license": "verify-upstream"
     },
     {
@@ -52,20 +215,26 @@
         "latin"
       ],
       "category": "serif",
+      "groups": [
+        "arabic"
+      ],
       "source": "https://fonts.google.com/specimen/Amiri",
       "cssFamily": "Amiri",
       "provider": "google-fonts",
       "license": "verify-upstream"
     },
     {
-      "id": "noto-naskh-arabic",
-      "name": "Noto Naskh Arabic",
+      "id": "aref-ruqaa",
+      "name": "Aref Ruqaa",
       "scripts": [
         "arabic"
       ],
-      "category": "serif",
-      "source": "https://fonts.google.com/specimen/Noto+Naskh+Arabic",
-      "cssFamily": "Noto Naskh Arabic",
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Aref%20Ruqaa",
+      "cssFamily": "Aref Ruqaa",
       "provider": "google-fonts",
       "license": "verify-upstream"
     },
@@ -77,8 +246,477 @@
         "latin"
       ],
       "category": "sans-serif",
+      "groups": [
+        "arabic"
+      ],
       "source": "https://fonts.google.com/specimen/Cairo",
       "cssFamily": "Cairo",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "changa",
+      "name": "Changa",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Changa",
+      "cssFamily": "Changa",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "el-messiri",
+      "name": "El Messiri",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/El%20Messiri",
+      "cssFamily": "El Messiri",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "harmattan",
+      "name": "Harmattan",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Harmattan",
+      "cssFamily": "Harmattan",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "katib",
+      "name": "Katib",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Katib",
+      "cssFamily": "Katib",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "lateef",
+      "name": "Lateef",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Lateef",
+      "cssFamily": "Lateef",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "lemonada",
+      "name": "Lemonada",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Lemonada",
+      "cssFamily": "Lemonada",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "mada",
+      "name": "Mada",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Mada",
+      "cssFamily": "Mada",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "markazi-text",
+      "name": "Markazi Text",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Markazi%20Text",
+      "cssFamily": "Markazi Text",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "noto-kufi-arabic",
+      "name": "Noto Kufi Arabic",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Noto%20Kufi%20Arabic",
+      "cssFamily": "Noto Kufi Arabic",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "noto-naskh-arabic",
+      "name": "Noto Naskh Arabic",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "serif",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Noto+Naskh+Arabic",
+      "cssFamily": "Noto Naskh Arabic",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "noto-sans-arabic",
+      "name": "Noto Sans Arabic",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Noto%20Sans%20Arabic",
+      "cssFamily": "Noto Sans Arabic",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "noto-nastaliq-urdu",
+      "name": "Noto Nastaliq Urdu",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Noto%20Nastaliq%20Urdu",
+      "cssFamily": "Noto Nastaliq Urdu",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "noto-serif-arabic",
+      "name": "Noto Serif Arabic",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Noto%20Serif%20Arabic",
+      "cssFamily": "Noto Serif Arabic",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "rakkas",
+      "name": "Rakkas",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Rakkas",
+      "cssFamily": "Rakkas",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "readex-pro",
+      "name": "Readex Pro",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Readex%20Pro",
+      "cssFamily": "Readex Pro",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "reem-kufi",
+      "name": "Reem Kufi",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Reem%20Kufi",
+      "cssFamily": "Reem Kufi",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "reem-kufi-fun",
+      "name": "Reem Kufi Fun",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Reem%20Kufi%20Fun",
+      "cssFamily": "Reem Kufi Fun",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "ruwudu",
+      "name": "Ruwudu",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Ruwudu",
+      "cssFamily": "Ruwudu",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "scheherazade-new",
+      "name": "Scheherazade New",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Scheherazade%20New",
+      "cssFamily": "Scheherazade New",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "tajawal",
+      "name": "Tajawal",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Tajawal",
+      "cssFamily": "Tajawal",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "zain",
+      "name": "Zain",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Zain",
+      "cssFamily": "Zain",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "almarai",
+      "name": "Almarai",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Almarai",
+      "cssFamily": "Almarai",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "baloo-bhaijaan-2",
+      "name": "Baloo Bhaijaan 2",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Baloo%20Bhaijaan%202",
+      "cssFamily": "Baloo Bhaijaan 2",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "gulzar",
+      "name": "Gulzar",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Gulzar",
+      "cssFamily": "Gulzar",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "ibm-plex-sans-arabic",
+      "name": "IBM Plex Sans Arabic",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/IBM%20Plex%20Sans%20Arabic",
+      "cssFamily": "IBM Plex Sans Arabic",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "jomhuria",
+      "name": "Jomhuria",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Jomhuria",
+      "cssFamily": "Jomhuria",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "kufam",
+      "name": "Kufam",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Kufam",
+      "cssFamily": "Kufam",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "marhey",
+      "name": "Marhey",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Marhey",
+      "cssFamily": "Marhey",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "noto-sans-syriac",
+      "name": "Noto Sans Syriac",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Noto%20Sans%20Syriac",
+      "cssFamily": "Noto Sans Syriac",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "rubik",
+      "name": "Rubik",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic",
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Rubik",
+      "cssFamily": "Rubik",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "tourney",
+      "name": "Tourney",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "arabic"
+      ],
+      "source": "https://fonts.google.com/specimen/Tourney",
+      "cssFamily": "Tourney",
       "provider": "google-fonts",
       "license": "verify-upstream"
     },
@@ -89,6 +727,9 @@
         "latin"
       ],
       "category": "sans-serif",
+      "groups": [
+        "latin"
+      ],
       "source": "https://fonts.google.com/specimen/Inter",
       "cssFamily": "Inter",
       "provider": "google-fonts",
@@ -101,8 +742,26 @@
         "latin"
       ],
       "category": "sans-serif",
+      "groups": [
+        "latin"
+      ],
       "source": "https://fonts.google.com/specimen/Roboto",
       "cssFamily": "Roboto",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "open-sans",
+      "name": "Open Sans",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Open%20Sans",
+      "cssFamily": "Open Sans",
       "provider": "google-fonts",
       "license": "verify-upstream"
     },
@@ -113,8 +772,851 @@
         "latin"
       ],
       "category": "sans-serif",
+      "groups": [
+        "latin"
+      ],
       "source": "https://fonts.google.com/specimen/Montserrat",
       "cssFamily": "Montserrat",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "poppins",
+      "name": "Poppins",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Poppins",
+      "cssFamily": "Poppins",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "lato",
+      "name": "Lato",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Lato",
+      "cssFamily": "Lato",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "oswald",
+      "name": "Oswald",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Oswald",
+      "cssFamily": "Oswald",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "raleway",
+      "name": "Raleway",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Raleway",
+      "cssFamily": "Raleway",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "nunito",
+      "name": "Nunito",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Nunito",
+      "cssFamily": "Nunito",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "nunito-sans",
+      "name": "Nunito Sans",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Nunito%20Sans",
+      "cssFamily": "Nunito Sans",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "ubuntu",
+      "name": "Ubuntu",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Ubuntu",
+      "cssFamily": "Ubuntu",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "work-sans",
+      "name": "Work Sans",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Work%20Sans",
+      "cssFamily": "Work Sans",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "dm-sans",
+      "name": "DM Sans",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/DM%20Sans",
+      "cssFamily": "DM Sans",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "manrope",
+      "name": "Manrope",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Manrope",
+      "cssFamily": "Manrope",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "outfit",
+      "name": "Outfit",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Outfit",
+      "cssFamily": "Outfit",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "plus-jakarta-sans",
+      "name": "Plus Jakarta Sans",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Plus%20Jakarta%20Sans",
+      "cssFamily": "Plus Jakarta Sans",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "urbanist",
+      "name": "Urbanist",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Urbanist",
+      "cssFamily": "Urbanist",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "sora",
+      "name": "Sora",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Sora",
+      "cssFamily": "Sora",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "quicksand",
+      "name": "Quicksand",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Quicksand",
+      "cssFamily": "Quicksand",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "cabin",
+      "name": "Cabin",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Cabin",
+      "cssFamily": "Cabin",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "karla",
+      "name": "Karla",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Karla",
+      "cssFamily": "Karla",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "mulish",
+      "name": "Mulish",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Mulish",
+      "cssFamily": "Mulish",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "barlow",
+      "name": "Barlow",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Barlow",
+      "cssFamily": "Barlow",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "figtree",
+      "name": "Figtree",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Figtree",
+      "cssFamily": "Figtree",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "lexend",
+      "name": "Lexend",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Lexend",
+      "cssFamily": "Lexend",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "archivo",
+      "name": "Archivo",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Archivo",
+      "cssFamily": "Archivo",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "space-grotesk",
+      "name": "Space Grotesk",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Space%20Grotesk",
+      "cssFamily": "Space Grotesk",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "ibm-plex-sans",
+      "name": "IBM Plex Sans",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/IBM%20Plex%20Sans",
+      "cssFamily": "IBM Plex Sans",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "ibm-plex-mono",
+      "name": "IBM Plex Mono",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/IBM%20Plex%20Mono",
+      "cssFamily": "IBM Plex Mono",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "source-sans-3",
+      "name": "Source Sans 3",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Source%20Sans%203",
+      "cssFamily": "Source Sans 3",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "source-serif-4",
+      "name": "Source Serif 4",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Source%20Serif%204",
+      "cssFamily": "Source Serif 4",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "libre-baskerville",
+      "name": "Libre Baskerville",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Libre%20Baskerville",
+      "cssFamily": "Libre Baskerville",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "merriweather",
+      "name": "Merriweather",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Merriweather",
+      "cssFamily": "Merriweather",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "lora",
+      "name": "Lora",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Lora",
+      "cssFamily": "Lora",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "playfair-display",
+      "name": "Playfair Display",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Playfair%20Display",
+      "cssFamily": "Playfair Display",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "cormorant-garamond",
+      "name": "Cormorant Garamond",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Cormorant%20Garamond",
+      "cssFamily": "Cormorant Garamond",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "eb-garamond",
+      "name": "EB Garamond",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/EB%20Garamond",
+      "cssFamily": "EB Garamond",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "crimson-text",
+      "name": "Crimson Text",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Crimson%20Text",
+      "cssFamily": "Crimson Text",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "bitter",
+      "name": "Bitter",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Bitter",
+      "cssFamily": "Bitter",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "spectral",
+      "name": "Spectral",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Spectral",
+      "cssFamily": "Spectral",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "bodoni-moda",
+      "name": "Bodoni Moda",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Bodoni%20Moda",
+      "cssFamily": "Bodoni Moda",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "abril-fatface",
+      "name": "Abril Fatface",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Abril%20Fatface",
+      "cssFamily": "Abril Fatface",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "bebas-neue",
+      "name": "Bebas Neue",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Bebas%20Neue",
+      "cssFamily": "Bebas Neue",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "anton",
+      "name": "Anton",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Anton",
+      "cssFamily": "Anton",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "archivo-black",
+      "name": "Archivo Black",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Archivo%20Black",
+      "cssFamily": "Archivo Black",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "righteous",
+      "name": "Righteous",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Righteous",
+      "cssFamily": "Righteous",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "pacifico",
+      "name": "Pacifico",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Pacifico",
+      "cssFamily": "Pacifico",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "caveat",
+      "name": "Caveat",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Caveat",
+      "cssFamily": "Caveat",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "dancing-script",
+      "name": "Dancing Script",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Dancing%20Script",
+      "cssFamily": "Dancing Script",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "great-vibes",
+      "name": "Great Vibes",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Great%20Vibes",
+      "cssFamily": "Great Vibes",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "cinzel",
+      "name": "Cinzel",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Cinzel",
+      "cssFamily": "Cinzel",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "josefin-sans",
+      "name": "Josefin Sans",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Josefin%20Sans",
+      "cssFamily": "Josefin Sans",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "exo-2",
+      "name": "Exo 2",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Exo%202",
+      "cssFamily": "Exo 2",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "titillium-web",
+      "name": "Titillium Web",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Titillium%20Web",
+      "cssFamily": "Titillium Web",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "inconsolata",
+      "name": "Inconsolata",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Inconsolata",
+      "cssFamily": "Inconsolata",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "jetbrains-mono",
+      "name": "JetBrains Mono",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/JetBrains%20Mono",
+      "cssFamily": "JetBrains Mono",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "fira-code",
+      "name": "Fira Code",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Fira%20Code",
+      "cssFamily": "Fira Code",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "space-mono",
+      "name": "Space Mono",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Space%20Mono",
+      "cssFamily": "Space Mono",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "pt-sans",
+      "name": "PT Sans",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/PT%20Sans",
+      "cssFamily": "PT Sans",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "pt-serif",
+      "name": "PT Serif",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/PT%20Serif",
+      "cssFamily": "PT Serif",
       "provider": "google-fonts",
       "license": "verify-upstream"
     },
@@ -125,8 +1627,146 @@
         "latin"
       ],
       "category": "sans-serif",
+      "groups": [
+        "latin"
+      ],
       "source": "https://fonts.google.com/specimen/Noto+Sans",
       "cssFamily": "Noto Sans",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "noto-serif",
+      "name": "Noto Serif",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Noto%20Serif",
+      "cssFamily": "Noto Serif",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "noto-sans-devanagari",
+      "name": "Noto Sans Devanagari",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Noto%20Sans%20Devanagari",
+      "cssFamily": "Noto Sans Devanagari",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "comfortaa",
+      "name": "Comfortaa",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Comfortaa",
+      "cssFamily": "Comfortaa",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "asap",
+      "name": "Asap",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Asap",
+      "cssFamily": "Asap",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "satisfy",
+      "name": "Satisfy",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Satisfy",
+      "cssFamily": "Satisfy",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "sacramento",
+      "name": "Sacramento",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Sacramento",
+      "cssFamily": "Sacramento",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "permanent-marker",
+      "name": "Permanent Marker",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Permanent%20Marker",
+      "cssFamily": "Permanent Marker",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "fredoka",
+      "name": "Fredoka",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/Fredoka",
+      "cssFamily": "Fredoka",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "m-plus-rounded-1c",
+      "name": "M PLUS Rounded 1c",
+      "scripts": [
+        "latin"
+      ],
+      "category": "unclassified",
+      "groups": [
+        "latin"
+      ],
+      "source": "https://fonts.google.com/specimen/M%20PLUS%20Rounded%201c",
+      "cssFamily": "M PLUS Rounded 1c",
       "provider": "google-fonts",
       "license": "verify-upstream"
     }
