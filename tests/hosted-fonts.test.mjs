@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync,statSync} from 'node:fs';
 const root=new URL('../',import.meta.url);
@@ -19,6 +20,8 @@ test('hosted font manifest is internally consistent',()=>{
   assert.equal(statSync(file).size,f.bytes);
   const signature=readFileSync(file).subarray(0,4);
   assert.ok(signature.equals(Buffer.from([0,1,0,0]))||signature.toString()==='OTTO'||signature.toString()==='true');
-  if(f.sha256)assert.match(f.sha256,/^[a-f0-9]{64}$/);
+  if(f.sha256){assert.match(f.sha256,/^[a-f0-9]{64}$/);assert.equal(createHash('sha256').update(readFileSync(file)).digest('hex'),f.sha256)}
+  const lic=readFileSync(new URL('../'+f.licenseFile,import.meta.url),'utf8');
+  assert.match(lic,/OPEN FONT LICENSE/i);
  }
 });
