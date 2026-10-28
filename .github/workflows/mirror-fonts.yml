@@ -1,6 +1,10 @@
 name: Incremental licensed font mirror
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/mirror_fonts.py'
+      - '.github/workflows/mirror-fonts.yml'
   schedule:
     - cron: '45 4 * * 2'
 permissions:
