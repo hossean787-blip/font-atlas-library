@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "fonts": [
+    {
+      "id": "amiri",
+      "file": "assets/fonts/amiri/font.ttf",
+      "licenseFile": "assets/fonts/amiri/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/amiri/Amiri-Regular.ttf",
+      "bytes": 431116
+    },
+    {
+      "id": "lalezar",
+      "file": "assets/fonts/lalezar/font.ttf",
+      "licenseFile": "assets/fonts/lalezar/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/lalezar/Lalezar-Regular.ttf",
+      "bytes": 290016
+    },
+    {
+      "id": "vazirmatn",
+      "file": "assets/fonts/vazirmatn/font.ttf",
+      "licenseFile": "assets/fonts/vazirmatn/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/vazirmatn/Vazirmatn[wght].ttf",
+      "bytes": 241328
+    },
+    {
+      "id": "estedad",
+      "file": "assets/fonts/estedad/font.ttf",
+      "licenseFile": "assets/fonts/estedad/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/estedad/Estedad[wght].ttf",
+      "bytes": 328340
+    },
+    {
+      "id": "inter",
+      "file": "assets/fonts/inter/font.ttf",
+      "licenseFile": "assets/fonts/inter/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/inter/Inter[opsz,wght].ttf",
+      "bytes": 876576
+    },
+    {
+      "id": "cairo",
+      "file": "assets/fonts/cairo/font.ttf",
+      "licenseFile": "assets/fonts/cairo/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/cairo/Cairo[slnt,wght].ttf",
+      "bytes": 599548
+    }
+  ]
+}
