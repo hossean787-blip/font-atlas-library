@@ -194,6 +194,102 @@
       "sha256": "2449bb9cff9e60508c5b0346ab30e70e84f959643f81442adb3534baf7e25537"
     },
     {
+      "id": "akshar",
+      "file": "assets/fonts/akshar/font.ttf",
+      "licenseFile": "assets/fonts/akshar/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/akshar/Akshar[CTRS,wght].ttf",
+      "bytes": 320136,
+      "sha256": "320e19960349d8e7257bce325d5db07aea4f7c08bcf143b0f44cedf7227dd63c"
+    },
+    {
+      "id": "akt",
+      "file": "assets/fonts/akt/font.ttf",
+      "licenseFile": "assets/fonts/akt/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/akt/Akt[wght].ttf",
+      "bytes": 353816,
+      "sha256": "3da5013ec56bf5a83cccd1d5601b89fa58a6cda5b3fd0e5f8d18ee3690272c05"
+    },
+    {
+      "id": "aladin",
+      "file": "assets/fonts/aladin/font.ttf",
+      "licenseFile": "assets/fonts/aladin/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/aladin/Aladin-Regular.ttf",
+      "bytes": 42180,
+      "sha256": "c7ee57e19b1b2c89f8d786115dc69225091ff7665f30fea7908bc2fb27d13398"
+    },
+    {
+      "id": "alansans",
+      "file": "assets/fonts/alansans/font.ttf",
+      "licenseFile": "assets/fonts/alansans/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alansans/AlanSans[wght].ttf",
+      "bytes": 198132,
+      "sha256": "96e93ac16fd488698a88489e297a5de00b2c5dbd8f20c298ebd4d3acc4421b2a"
+    },
+    {
+      "id": "alata",
+      "file": "assets/fonts/alata/font.ttf",
+      "licenseFile": "assets/fonts/alata/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alata/Alata-Regular.ttf",
+      "bytes": 349132,
+      "sha256": "7b71432a5e2e2409a3583553bc5ce703209a8bce9b2f136ca257ac4c2d3addc4"
+    },
+    {
+      "id": "alatsi",
+      "file": "assets/fonts/alatsi/font.ttf",
+      "licenseFile": "assets/fonts/alatsi/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alatsi/Alatsi-Regular.ttf",
+      "bytes": 444204,
+      "sha256": "16b62400d74df555a35e145d0d8835e4f06e6d5c4707a8d0faf76d4e99910292"
+    },
+    {
+      "id": "albertsans",
+      "file": "assets/fonts/albertsans/font.ttf",
+      "licenseFile": "assets/fonts/albertsans/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/albertsans/AlbertSans-Italic[wght].ttf",
+      "bytes": 142156,
+      "sha256": "16eb3291f7389045e90a00abb66a3d2bca1d03387b7ebbbc2b0cd9a094f86226"
+    },
+    {
+      "id": "aldrich",
+      "file": "assets/fonts/aldrich/font.ttf",
+      "licenseFile": "assets/fonts/aldrich/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/aldrich/Aldrich-Regular.ttf",
+      "bytes": 56548,
+      "sha256": "bcabd8e6db3e8cb59242e8dbdef30bfd9b25be600e2e8f506618008f99138d47"
+    },
+    {
+      "id": "alef",
+      "file": "assets/fonts/alef/font.ttf",
+      "licenseFile": "assets/fonts/alef/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alef/Alef-Regular.ttf",
+      "bytes": 90996,
+      "sha256": "a32adcc953ac356906901778460083dc207d4560cb586fd9ea24ec5b186969ed"
+    },
+    {
+      "id": "alegreya",
+      "file": "assets/fonts/alegreya/font.ttf",
+      "licenseFile": "assets/fonts/alegreya/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alegreya/Alegreya-Italic[wght].ttf",
+      "bytes": 425852,
+      "sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391"
+    },
+    {
+      "id": "alegreyasans",
+      "file": "assets/fonts/alegreyasans/font.ttf",
+      "licenseFile": "assets/fonts/alegreyasans/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alegreyasans/AlegreyaSans-Regular.ttf",
+      "bytes": 263804,
+      "sha256": "8fab634196007afca839f1e5a6fb300976daff55d8528b590ef032f01b14ea10"
+    },
+    {
+      "id": "alegreyasanssc",
+      "file": "assets/fonts/alegreyasanssc/font.ttf",
+      "licenseFile": "assets/fonts/alegreyasanssc/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alegreyasanssc/AlegreyaSansSC-Regular.ttf",
+      "bytes": 267620,
+      "sha256": "0c5d4abcdd83af0ce9f5d4ca49f226c2b3030d2a83adf92cb5a5c2638c8e68b0"
+    },
+    {
       "id": "amiri",
       "file": "assets/fonts/amiri/font.ttf",
       "licenseFile": "assets/fonts/amiri/OFL.txt",
