@@ -33,7 +33,7 @@ def main():
             continue
         if not re.fullmatch("[a-z0-9_-]+", slug): continue
         name = " ".join(word.capitalize() for word in slug.replace("_"," ").split())
-        generated[slug] = {"id":slug,"name":name,"scripts":[],"category":"unclassified",
+        generated[slug.replace("_","-")] = {"id":slug.replace("_","-"),"name":name,"scripts":[],"category":"unclassified",
            "groups":["google-fonts"],"source":f"https://github.com/google/fonts/tree/main/{license_dir}/{slug}",
            "cssFamily":name,"provider":"google-fonts","license":license_id,
            "licenseUrl":f"https://github.com/google/fonts/blob/main/{license_dir}/{slug}/{license_file}"}
