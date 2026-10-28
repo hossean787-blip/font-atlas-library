@@ -32,7 +32,7 @@ def main():
         if license_file not in names or not any(n.lower().endswith(".ttf") for n in names):
             continue
         if not re.fullmatch("[a-z0-9_-]+", slug): continue
-        name = " ".join(word.capitalize() for word in re.sub(r"([a-z])([0-9])",r"\\1 \\2",slug).replace("_"," ").split())
+        name = " ".join(word.capitalize() for word in slug.replace("_"," ").split())
         generated[slug] = {"id":slug,"name":name,"scripts":[],"category":"unclassified",
            "groups":["google-fonts"],"source":f"https://github.com/google/fonts/tree/main/{license_dir}/{slug}",
            "cssFamily":name,"provider":"google-fonts","license":license_id,
