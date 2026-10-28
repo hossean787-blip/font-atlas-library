@@ -1,6 +1,102 @@
 {
-  "version": 1,
+  "version": 2,
   "fonts": [
+    {
+      "id": "abeezee",
+      "file": "assets/fonts/abeezee/font.ttf",
+      "licenseFile": "assets/fonts/abeezee/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/abeezee/ABeeZee-Regular.ttf",
+      "bytes": 46016,
+      "sha256": "2901c8df256648cc2bb2e3afb381cb8d28e65ed3dbe11de20695ae4d5ffdeda9"
+    },
+    {
+      "id": "abel",
+      "file": "assets/fonts/abel/font.ttf",
+      "licenseFile": "assets/fonts/abel/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/abel/Abel-Regular.ttf",
+      "bytes": 35220,
+      "sha256": "8809dcad25318225052f88333e208c5aad4adcb7b2c934c135735ec19aa410b4"
+    },
+    {
+      "id": "abhayalibre",
+      "file": "assets/fonts/abhayalibre/font.ttf",
+      "licenseFile": "assets/fonts/abhayalibre/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/abhayalibre/AbhayaLibre-Regular.ttf",
+      "bytes": 555376,
+      "sha256": "d4279d38a0012fa54d340979694e70e3235266220dedc0d7000131345fb33bd4"
+    },
+    {
+      "id": "aboreto",
+      "file": "assets/fonts/aboreto/font.ttf",
+      "licenseFile": "assets/fonts/aboreto/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/aboreto/Aboreto-Regular.ttf",
+      "bytes": 48356,
+      "sha256": "fc702d535857fa2bda802647b9d55f82a07502d4acdfd95b47279b3bf479eaa1"
+    },
+    {
+      "id": "abrilfatface",
+      "file": "assets/fonts/abrilfatface/font.ttf",
+      "licenseFile": "assets/fonts/abrilfatface/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/abrilfatface/AbrilFatface-Regular.ttf",
+      "bytes": 67364,
+      "sha256": "5971d4a3758a922a9fedc7f6fb825a96341a2e718c45a4b2c9a6b417c8c4dbe9"
+    },
+    {
+      "id": "abyssinicasil",
+      "file": "assets/fonts/abyssinicasil/font.ttf",
+      "licenseFile": "assets/fonts/abyssinicasil/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/abyssinicasil/AbyssinicaSIL-Regular.ttf",
+      "bytes": 268264,
+      "sha256": "f0e4fb92ee26967a3e6462342494956a3798b952345f917e1388913bb191cf2b"
+    },
+    {
+      "id": "acme",
+      "file": "assets/fonts/acme/font.ttf",
+      "licenseFile": "assets/fonts/acme/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/acme/Acme-Regular.ttf",
+      "bytes": 23292,
+      "sha256": "76fdb582f54653c27274d5cd986f994c28d7fa7d323e7eb9ee14ce8875d39dc4"
+    },
+    {
+      "id": "actor",
+      "file": "assets/fonts/actor/font.ttf",
+      "licenseFile": "assets/fonts/actor/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/actor/Actor-Regular.ttf",
+      "bytes": 64944,
+      "sha256": "a7cf62975a5ecaa8a3be2e2913ffb4a335831315478b93bec722ad982308ea38"
+    },
+    {
+      "id": "adamina",
+      "file": "assets/fonts/adamina/font.ttf",
+      "licenseFile": "assets/fonts/adamina/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/adamina/Adamina-Regular.ttf",
+      "bytes": 114460,
+      "sha256": "e7108cfee0a718d5885fc8d0f03555fa6e0c4b6309e4b15ea991aadd824c34b7"
+    },
+    {
+      "id": "adlamdisplay",
+      "file": "assets/fonts/adlamdisplay/font.ttf",
+      "licenseFile": "assets/fonts/adlamdisplay/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/adlamdisplay/ADLaMDisplay-Regular.ttf",
+      "bytes": 97228,
+      "sha256": "cc36c3c6cba02522b86ef6c5ee7b062c5bf2a60b0f51f9b87a44c7d50d650899"
+    },
+    {
+      "id": "adobeblank",
+      "file": "assets/fonts/adobeblank/font.ttf",
+      "licenseFile": "assets/fonts/adobeblank/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/adobeblank/AdobeBlank-Regular.ttf",
+      "bytes": 72408,
+      "sha256": "3b468f6efabe9274e804edf10477c8bdaf27cb2a76f50a5dd7cca34599f8b918"
+    },
+    {
+      "id": "adventpro",
+      "file": "assets/fonts/adventpro/font.ttf",
+      "licenseFile": "assets/fonts/adventpro/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/adventpro/AdventPro-Italic[wdth,wght].ttf",
+      "bytes": 261384,
+      "sha256": "0917a5d65589025f2a752b1b0568f924dac49a065a25b4d60116b3c6d4d9ebae"
+    },
     {
       "id": "amiri",
       "file": "assets/fonts/amiri/font.ttf",
@@ -9,18 +105,11 @@
       "bytes": 431116
     },
     {
-      "id": "lalezar",
-      "file": "assets/fonts/lalezar/font.ttf",
-      "licenseFile": "assets/fonts/lalezar/OFL.txt",
-      "source": "https://github.com/google/fonts/blob/main/ofl/lalezar/Lalezar-Regular.ttf",
-      "bytes": 290016
-    },
-    {
-      "id": "vazirmatn",
-      "file": "assets/fonts/vazirmatn/font.ttf",
-      "licenseFile": "assets/fonts/vazirmatn/OFL.txt",
-      "source": "https://github.com/google/fonts/blob/main/ofl/vazirmatn/Vazirmatn[wght].ttf",
-      "bytes": 241328
+      "id": "cairo",
+      "file": "assets/fonts/cairo/font.ttf",
+      "licenseFile": "assets/fonts/cairo/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/cairo/Cairo[slnt,wght].ttf",
+      "bytes": 599548
     },
     {
       "id": "estedad",
@@ -37,11 +126,18 @@
       "bytes": 876576
     },
     {
-      "id": "cairo",
-      "file": "assets/fonts/cairo/font.ttf",
-      "licenseFile": "assets/fonts/cairo/OFL.txt",
-      "source": "https://github.com/google/fonts/blob/main/ofl/cairo/Cairo[slnt,wght].ttf",
-      "bytes": 599548
+      "id": "lalezar",
+      "file": "assets/fonts/lalezar/font.ttf",
+      "licenseFile": "assets/fonts/lalezar/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/lalezar/Lalezar-Regular.ttf",
+      "bytes": 290016
+    },
+    {
+      "id": "vazirmatn",
+      "file": "assets/fonts/vazirmatn/font.ttf",
+      "licenseFile": "assets/fonts/vazirmatn/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/vazirmatn/Vazirmatn[wght].ttf",
+      "bytes": 241328
     }
   ]
 }
