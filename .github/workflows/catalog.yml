@@ -1,0 +1,41 @@
+name: Refresh licensed font directory
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 3 * * 1'
+  push:
+    paths:
+      - 'scripts/build_catalog.py'
+      - '.github/workflows/catalog.yml'
+permissions:
+  contents: write
+concurrency:
+  group: font-atlas-catalog
+  cancel-in-progress: false
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebuild directory from licensed upstream tree
+        run: python scripts/build_catalog.py
+      - name: Verify catalog
+        run: |
+          python -m json.tool api/v1/fonts.json > /dev/null
+          npm test
+      - name: Publish updated directory
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add api/v1/fonts.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update licensed font directory"
+            git pull --rebase
+            git push
+          fi
