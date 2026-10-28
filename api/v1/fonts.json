@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.0.0",
+  "version": "0.2.0",
+  "generatedAt": "2026-10-28",
+  "notice": "Entries are references, not redistributed font binaries. Verify each upstream license.",
+  "fonts": [
+    {
+      "id": "vazirmatn",
+      "name": "Vazirmatn",
+      "scripts": [
+        "arabic",
+        "latin"
+      ],
+      "category": "sans-serif",
+      "source": "https://github.com/rastikerdar/vazirmatn",
+      "cssFamily": "Vazirmatn",
+      "provider": "google-fonts",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://github.com/rastikerdar/vazirmatn/blob/master/OFL.txt"
+    },
+    {
+      "id": "estedad",
+      "name": "Estedad",
+      "scripts": [
+        "arabic",
+        "latin"
+      ],
+      "category": "sans-serif",
+      "source": "https://github.com/aminabedi68/Estedad",
+      "cssFamily": "Estedad",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "lalezar",
+      "name": "Lalezar",
+      "scripts": [
+        "arabic",
+        "latin"
+      ],
+      "category": "display",
+      "source": "https://fonts.google.com/specimen/Lalezar",
+      "cssFamily": "Lalezar",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "amiri",
+      "name": "Amiri",
+      "scripts": [
+        "arabic",
+        "latin"
+      ],
+      "category": "serif",
+      "source": "https://fonts.google.com/specimen/Amiri",
+      "cssFamily": "Amiri",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "noto-naskh-arabic",
+      "name": "Noto Naskh Arabic",
+      "scripts": [
+        "arabic"
+      ],
+      "category": "serif",
+      "source": "https://fonts.google.com/specimen/Noto+Naskh+Arabic",
+      "cssFamily": "Noto Naskh Arabic",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "cairo",
+      "name": "Cairo",
+      "scripts": [
+        "arabic",
+        "latin"
+      ],
+      "category": "sans-serif",
+      "source": "https://fonts.google.com/specimen/Cairo",
+      "cssFamily": "Cairo",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "inter",
+      "name": "Inter",
+      "scripts": [
+        "latin"
+      ],
+      "category": "sans-serif",
+      "source": "https://fonts.google.com/specimen/Inter",
+      "cssFamily": "Inter",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "roboto",
+      "name": "Roboto",
+      "scripts": [
+        "latin"
+      ],
+      "category": "sans-serif",
+      "source": "https://fonts.google.com/specimen/Roboto",
+      "cssFamily": "Roboto",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "montserrat",
+      "name": "Montserrat",
+      "scripts": [
+        "latin"
+      ],
+      "category": "sans-serif",
+      "source": "https://fonts.google.com/specimen/Montserrat",
+      "cssFamily": "Montserrat",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    },
+    {
+      "id": "noto-sans",
+      "name": "Noto Sans",
+      "scripts": [
+        "latin"
+      ],
+      "category": "sans-serif",
+      "source": "https://fonts.google.com/specimen/Noto+Sans",
+      "cssFamily": "Noto Sans",
+      "provider": "google-fonts",
+      "license": "verify-upstream"
+    }
+  ]
+}
