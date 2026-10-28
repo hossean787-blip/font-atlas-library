@@ -5,7 +5,7 @@ No user credentials or license inference. Dependencies: Python 3 standard librar
 import json, os, pathlib, re, urllib.request
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 BASE = ROOT / 'assets' / 'fonts'
-FAMILIES = ('amiri', 'lalezar', 'vazirmatn', 'estedad', 'inter', 'cairo')
+FAMILIES = ('amiri', 'lalezar', 'vazirmatn', 'estedad', 'inter', 'cairo', 'notosansarabic', 'notonaskharabic', 'markazitext', 'tajawal', 'almarai', 'rubik', 'opensans', 'roboto', 'montserrat', 'poppins', 'nunito', 'sora', 'manrope', 'worksans', 'ibmplexsansarabic', 're​​emkufi'.replace('​​',''))
 API = 'https://api.github.com/repos/google/fonts/contents/ofl/'
 HEADERS = {'User-Agent': 'FontAtlasSync/1.0', 'Accept': 'application/vnd.github+json'}
 def read(url, max_bytes=5000000):
