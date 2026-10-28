@@ -1,4 +1,4 @@
-const VERSION='font-atlas-shell-v1';
+const VERSION='font-atlas-shell-v2';
 const SHELL=['./','./index.html','./app.js','./api/v1/fonts.json','./manifest.webmanifest','./assets/icon.svg'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(VERSION).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(Promise.all([caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('font-atlas-shell-')&&k!==VERSION).map(k=>caches.delete(k)))),self.clients.claim()]))});
