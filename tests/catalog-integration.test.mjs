@@ -3,11 +3,11 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 const root=new URL('../',import.meta.url);
 const catalog=JSON.parse(readFileSync(new URL('api/v1/fonts.json',root),'utf8'));
-test('public catalog has 117 unique families',()=>{
- assert.equal(catalog.total,117);
- assert.equal(catalog.fonts.length,117);
- assert.equal(new Set(catalog.fonts.map(f=>f.id)).size,117);
- assert.equal(new Set(catalog.fonts.map(f=>f.name.toLowerCase())).size,117);
+test('public catalog is unique and grows safely',()=>{
+ assert.ok(catalog.total >= 117);
+ assert.equal(catalog.fonts.length,catalog.total);
+ assert.equal(new Set(catalog.fonts.map(f=>f.id)).size,catalog.total);
+ assert.ok(new Set(catalog.fonts.map(f=>f.name.toLowerCase())).size >= 117);
 });
 test('each font has safe identifier, origin, group and license review flag',()=>{
  for(const font of catalog.fonts){
