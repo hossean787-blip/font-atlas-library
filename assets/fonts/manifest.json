@@ -98,6 +98,102 @@
       "sha256": "0917a5d65589025f2a752b1b0568f924dac49a065a25b4d60116b3c6d4d9ebae"
     },
     {
+      "id": "afacad",
+      "file": "assets/fonts/afacad/font.ttf",
+      "licenseFile": "assets/fonts/afacad/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/afacad/Afacad-Italic[wght].ttf",
+      "bytes": 121024,
+      "sha256": "1cf0a5853330267433c0a1603e239ff33e5963887ec2545c96a1516ca960a717"
+    },
+    {
+      "id": "afacadflux",
+      "file": "assets/fonts/afacadflux/font.ttf",
+      "licenseFile": "assets/fonts/afacadflux/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/afacadflux/AfacadFlux[slnt,wght].ttf",
+      "bytes": 437512,
+      "sha256": "28aa3569ad95f7f7b363890085ad231aad280b3f7f73d37bf6d80285189ea636"
+    },
+    {
+      "id": "agbalumo",
+      "file": "assets/fonts/agbalumo/font.ttf",
+      "licenseFile": "assets/fonts/agbalumo/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/agbalumo/Agbalumo-Regular.ttf",
+      "bytes": 1715888,
+      "sha256": "d9e35c6debf1319267140838f3c30c3c51d9f47c7050b5482c14c5accf7f4d94"
+    },
+    {
+      "id": "agdasima",
+      "file": "assets/fonts/agdasima/font.ttf",
+      "licenseFile": "assets/fonts/agdasima/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/agdasima/Agdasima-Regular.ttf",
+      "bytes": 23152,
+      "sha256": "512b6ec7aa802bb92cf3b816644ca11facf630b087d6e3ab3cd4b8d4eae77896"
+    },
+    {
+      "id": "agravepro",
+      "file": "assets/fonts/agravepro/font.ttf",
+      "licenseFile": "assets/fonts/agravepro/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/agravepro/AgravePro[wght].ttf",
+      "bytes": 338120,
+      "sha256": "2fc5eb1c6f3004b2842424230f16b2bf7e859b9310190a6db23604803841388c"
+    },
+    {
+      "id": "aguafinascript",
+      "file": "assets/fonts/aguafinascript/font.ttf",
+      "licenseFile": "assets/fonts/aguafinascript/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/aguafinascript/AguafinaScript-Regular.ttf",
+      "bytes": 47252,
+      "sha256": "55f65d84d86936d7aaadffa4c17873923fba26c078d42aa4e6e2f1be8bfb5f6e"
+    },
+    {
+      "id": "agudisplay",
+      "file": "assets/fonts/agudisplay/font.ttf",
+      "licenseFile": "assets/fonts/agudisplay/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/agudisplay/AguDisplay[MORF].ttf",
+      "bytes": 779736,
+      "sha256": "27ed259a81a476a354abc4cf5b31717241a57db1e6bce24453729214930c96ee"
+    },
+    {
+      "id": "akatab",
+      "file": "assets/fonts/akatab/font.ttf",
+      "licenseFile": "assets/fonts/akatab/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/akatab/Akatab-Regular.ttf",
+      "bytes": 110568,
+      "sha256": "7efecab54eb02e1b47087ec1ebbe6ac32b4308ac02e18f71c1f7567ec4d69fb4"
+    },
+    {
+      "id": "akayakanadaka",
+      "file": "assets/fonts/akayakanadaka/font.ttf",
+      "licenseFile": "assets/fonts/akayakanadaka/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/akayakanadaka/AkayaKanadaka-Regular.ttf",
+      "bytes": 341876,
+      "sha256": "7891840f8c14326220aafd73f599f592bf44c60e4f8882bcf7c57426d62e9427"
+    },
+    {
+      "id": "akayatelivigala",
+      "file": "assets/fonts/akayatelivigala/font.ttf",
+      "licenseFile": "assets/fonts/akayatelivigala/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/akayatelivigala/AkayaTelivigala-Regular.ttf",
+      "bytes": 561640,
+      "sha256": "e57498133912f5abab1651ac44654fd67ebefebb489052748587b4ba33e182c2"
+    },
+    {
+      "id": "akronim",
+      "file": "assets/fonts/akronim/font.ttf",
+      "licenseFile": "assets/fonts/akronim/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/akronim/Akronim-Regular.ttf",
+      "bytes": 109592,
+      "sha256": "b5528ba2b9d60b90cbbe06e587655762dc518616d2613cbdf616751beaf7e2f8"
+    },
+    {
+      "id": "aksarabaligalang",
+      "file": "assets/fonts/aksarabaligalang/font.ttf",
+      "licenseFile": "assets/fonts/aksarabaligalang/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/aksarabaligalang/AksaraBaliGalang-Regular.ttf",
+      "bytes": 103800,
+      "sha256": "2449bb9cff9e60508c5b0346ab30e70e84f959643f81442adb3534baf7e25537"
+    },
+    {
       "id": "amiri",
       "file": "assets/fonts/amiri/font.ttf",
       "licenseFile": "assets/fonts/amiri/OFL.txt",
