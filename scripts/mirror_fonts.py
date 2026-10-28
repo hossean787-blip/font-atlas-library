@@ -38,9 +38,10 @@ def main():
         if m and f.get("license")=="OFL-1.1" and f["id"] not in existing:
             candidates.append((f["id"],m.group(1)))
     candidates.sort()
-    done=0; used=0; failures=[]
+    done=0; used=0; failures=[]; inspected=0
     for font_id,slug in candidates:
-        if done>=args.batch or used>=args.max_bytes:break
+        if done>=args.batch or used>=args.max_bytes or inspected>=args.batch*5:break
+        inspected+=1
         try:
             api="https://api.github.com/repos/google/fonts/contents/ofl/"+slug
             listing=json.loads(get(api,300_000))
@@ -69,5 +70,5 @@ def main():
             failures.append({"id":font_id,"reason":str(exc)[:160]})
             print("SKIPPED",font_id,str(exc))
     manifest.write_text(json.dumps({"version":2,"fonts":sorted(existing.values(),key=lambda x:x["id"])},indent=2)+"\n",encoding="utf-8")
-    print(json.dumps({"added":done,"total":len(existing),"bytes":used,"failed":failures},ensure_ascii=False))
+    print(json.dumps({"added":done,"total":len(existing),"bytes":used,"inspected":inspected,"failed":failures},ensure_ascii=False))
 if __name__=="__main__": main()
