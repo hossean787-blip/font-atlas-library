@@ -38,10 +38,17 @@ def main():
         if m and f.get("license")=="OFL-1.1" and f["id"] not in existing:
             candidates.append((f["id"],m.group(1)))
     candidates.sort()
+    # Continue from the last attempted family across runs; a bad font must not block the queue.
+    cursor_file=BASE/"cursor.json"
+    cursor=json.loads(cursor_file.read_text(encoding="utf-8")).get("last","") if cursor_file.exists() else ""
+    after=[x for x in candidates if x[0]>cursor]
+    candidates=after if after else candidates
+    last=cursor
     done=0; used=0; failures=[]; inspected=0
     for font_id,slug in candidates:
         if done>=args.batch or used>=args.max_bytes or inspected>=args.batch*5:break
         inspected+=1
+        last=font_id
         try:
             api="https://api.github.com/repos/google/fonts/contents/ofl/"+slug
             listing=json.loads(get(api,300_000))
@@ -69,6 +76,8 @@ def main():
         except Exception as exc:
             failures.append({"id":font_id,"reason":str(exc)[:160]})
             print("SKIPPED",font_id,str(exc))
+    if inspected:
+        cursor_file.write_text(json.dumps({"last":last})+"\n",encoding="utf-8")
     manifest.write_text(json.dumps({"version":2,"fonts":sorted(existing.values(),key=lambda x:x["id"])},indent=2)+"\n",encoding="utf-8")
     print(json.dumps({"added":done,"total":len(existing),"bytes":used,"inspected":inspected,"failed":failures},ensure_ascii=False))
 if __name__=="__main__": main()
