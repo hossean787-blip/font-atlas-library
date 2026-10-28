@@ -50,6 +50,8 @@ def main():
             generated[k] = item
     fonts = sorted(generated.values(), key=lambda x:x["id"])
     if len(fonts) < len(old["fonts"]): raise ValueError("Catalog unexpectedly shrank")
+    if any(not f.get("id") or not f.get("source","").startswith("https://") or not f.get("license") for f in fonts):
+        raise ValueError("Generated catalog contains invalid source or license metadata")
     if len({f["id"] for f in fonts}) != len(fonts): raise ValueError("Duplicate IDs")
     output = dict(old,version="0.4.0",generatedAt=datetime.date.today().isoformat(),
                   notice="Licensed font references, not a promise of local font binaries. Rights must be verified upstream.",
