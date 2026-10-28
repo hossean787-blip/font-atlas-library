@@ -22,5 +22,5 @@ test('viewer dedupes and PWA cache has upgraded version',()=>{
  const script=readFileSync(new URL('app.js',root),'utf8');
  const service=readFileSync(new URL('sw.js',root),'utf8');
  assert.match(script,/uniqueRows/);
- assert.match(service,/font-atlas-shell-v2/);
+ assert.match(service,/font-atlas-shell-v3/);
 });
