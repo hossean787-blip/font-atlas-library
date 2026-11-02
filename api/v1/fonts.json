@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.0.0",
   "version": "0.4.0",
-  "generatedAt": "2026-10-28",
+  "generatedAt": "2026-11-02",
   "notice": "Licensed font references, not a promise of local font binaries. Rights must be verified upstream.",
-  "total": 2111,
+  "total": 2112,
   "fonts": [
     {
       "id": "42dotsans",
@@ -13715,6 +13715,20 @@
       "provider": "google-fonts",
       "license": "OFL-1.1",
       "licenseUrl": "https://github.com/google/fonts/blob/main/ofl/mada/OFL.txt"
+    },
+    {
+      "id": "madhuban",
+      "name": "Madhuban",
+      "scripts": [],
+      "category": "unclassified",
+      "groups": [
+        "google-fonts"
+      ],
+      "source": "https://github.com/google/fonts/tree/main/ofl/madhuban",
+      "cssFamily": "Madhuban",
+      "provider": "google-fonts",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://github.com/google/fonts/blob/main/ofl/madhuban/OFL.txt"
     },
     {
       "id": "madimione",
