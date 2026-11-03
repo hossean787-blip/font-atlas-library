@@ -290,6 +290,102 @@
       "sha256": "0c5d4abcdd83af0ce9f5d4ca49f226c2b3030d2a83adf92cb5a5c2638c8e68b0"
     },
     {
+      "id": "alegreyasc",
+      "file": "assets/fonts/alegreyasc/font.ttf",
+      "licenseFile": "assets/fonts/alegreyasc/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alegreyasc/AlegreyaSC-Regular.ttf",
+      "bytes": 367628,
+      "sha256": "5c8fba800b848b851e308dfdfdc573b64135e498db41cbd0b6d78ba9d267d9a1"
+    },
+    {
+      "id": "aleo",
+      "file": "assets/fonts/aleo/font.ttf",
+      "licenseFile": "assets/fonts/aleo/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/aleo/Aleo-Italic[wght].ttf",
+      "bytes": 154500,
+      "sha256": "9b4c074d9f3e662ef57bbef82efb7b1bb5f757d579c91c4c0b831319221d6f8c"
+    },
+    {
+      "id": "alexandria",
+      "file": "assets/fonts/alexandria/font.ttf",
+      "licenseFile": "assets/fonts/alexandria/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alexandria/Alexandria[wght].ttf",
+      "bytes": 332488,
+      "sha256": "db8ae03b62d55a65aa4e04307878df8c00d6e5388e4800635cbe0e22b6411b64"
+    },
+    {
+      "id": "alexbrush",
+      "file": "assets/fonts/alexbrush/font.ttf",
+      "licenseFile": "assets/fonts/alexbrush/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alexbrush/AlexBrush-Regular.ttf",
+      "bytes": 116244,
+      "sha256": "df702038d8e27797230c77959c139eeea38cac0caf53e19ea5b513d3b0d3362d"
+    },
+    {
+      "id": "alfaslabone",
+      "file": "assets/fonts/alfaslabone/font.ttf",
+      "licenseFile": "assets/fonts/alfaslabone/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alfaslabone/AlfaSlabOne-Regular.ttf",
+      "bytes": 97376,
+      "sha256": "28664afa698a3393bd5a29eec750230a0645c5301d62200e5f2d3a027fb2299d"
+    },
+    {
+      "id": "alice",
+      "file": "assets/fonts/alice/font.ttf",
+      "licenseFile": "assets/fonts/alice/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alice/Alice-Regular.ttf",
+      "bytes": 129200,
+      "sha256": "8212c40f10b306af9b82272ae68314de6964522b6dabf6abdaff647e74ac8b58"
+    },
+    {
+      "id": "alienblock",
+      "file": "assets/fonts/alienblock/font.ttf",
+      "licenseFile": "assets/fonts/alienblock/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alienblock/AlienBlock-Regular.ttf",
+      "bytes": 35344,
+      "sha256": "377e2a998a5b19cd937ab37483a31b17b5b52434c5065ba6751d7a9f38f75a4b"
+    },
+    {
+      "id": "alike",
+      "file": "assets/fonts/alike/font.ttf",
+      "licenseFile": "assets/fonts/alike/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alike/Alike-Regular.ttf",
+      "bytes": 69348,
+      "sha256": "accb24221880fbdcf8e8b23fc341ed43c6e0cc3cef1dfbad57ac72474dc1e512"
+    },
+    {
+      "id": "alikeangular",
+      "file": "assets/fonts/alikeangular/font.ttf",
+      "licenseFile": "assets/fonts/alikeangular/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alikeangular/AlikeAngular-Regular.ttf",
+      "bytes": 62184,
+      "sha256": "3706438e11bb219d6dbbb19958b637dc19470638da28fd97a620f7d7069bf448"
+    },
+    {
+      "id": "alkalami",
+      "file": "assets/fonts/alkalami/font.ttf",
+      "licenseFile": "assets/fonts/alkalami/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alkalami/Alkalami-Regular.ttf",
+      "bytes": 145540,
+      "sha256": "4410dfc591b918dd4360b0252b079855a8a00250de363c8c0163b29ddfc56434"
+    },
+    {
+      "id": "alkatra",
+      "file": "assets/fonts/alkatra/font.ttf",
+      "licenseFile": "assets/fonts/alkatra/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alkatra/Alkatra[wght].ttf",
+      "bytes": 949464,
+      "sha256": "af6d39e8085eda5db66b19100571709bd41c41938400f2c365dadde86dd28466"
+    },
+    {
+      "id": "allan",
+      "file": "assets/fonts/allan/font.ttf",
+      "licenseFile": "assets/fonts/allan/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/allan/Allan-Regular.ttf",
+      "bytes": 56524,
+      "sha256": "1216633f30f55dcfbe27f1f3a882a742ada9484a26ed26cbcf208f88e315b896"
+    },
+    {
       "id": "amiri",
       "file": "assets/fonts/amiri/font.ttf",
       "licenseFile": "assets/fonts/amiri/OFL.txt",
