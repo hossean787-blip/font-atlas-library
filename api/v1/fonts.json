@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.0.0",
   "version": "0.4.0",
-  "generatedAt": "2026-11-02",
+  "generatedAt": "2026-11-09",
   "notice": "Licensed font references, not a promise of local font binaries. Rights must be verified upstream.",
-  "total": 2112,
+  "total": 2113,
   "fonts": [
     {
       "id": "42dotsans",
@@ -8566,6 +8566,20 @@
       "provider": "google-fonts",
       "license": "OFL-1.1",
       "licenseUrl": "https://github.com/google/fonts/blob/main/ofl/geistpixel/OFL.txt"
+    },
+    {
+      "id": "geistserif",
+      "name": "Geistserif",
+      "scripts": [],
+      "category": "unclassified",
+      "groups": [
+        "google-fonts"
+      ],
+      "source": "https://github.com/google/fonts/tree/main/ofl/geistserif",
+      "cssFamily": "Geistserif",
+      "provider": "google-fonts",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://github.com/google/fonts/blob/main/ofl/geistserif/OFL.txt"
     },
     {
       "id": "gelasio",
