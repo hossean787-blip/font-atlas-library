@@ -386,6 +386,102 @@
       "sha256": "1216633f30f55dcfbe27f1f3a882a742ada9484a26ed26cbcf208f88e315b896"
     },
     {
+      "id": "allerta",
+      "file": "assets/fonts/allerta/font.ttf",
+      "licenseFile": "assets/fonts/allerta/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/allerta/Allerta-Regular.ttf",
+      "bytes": 19596,
+      "sha256": "9c7a63f78f944353b422abbb641c479503f5292a39d1ea932dc4186fd82b974f"
+    },
+    {
+      "id": "allertastencil",
+      "file": "assets/fonts/allertastencil/font.ttf",
+      "licenseFile": "assets/fonts/allertastencil/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/allertastencil/AllertaStencil-Regular.ttf",
+      "bytes": 20260,
+      "sha256": "8c504d1be20768941ab04251a389ad82d5782d647fa1c4029c811dc5bc2abd59"
+    },
+    {
+      "id": "allison",
+      "file": "assets/fonts/allison/font.ttf",
+      "licenseFile": "assets/fonts/allison/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/allison/Allison-Regular.ttf",
+      "bytes": 143700,
+      "sha256": "990750bc970472808cef2fceaed3424c922e781aee99e57907a68a9932d3a066"
+    },
+    {
+      "id": "allkin",
+      "file": "assets/fonts/allkin/font.ttf",
+      "licenseFile": "assets/fonts/allkin/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/allkin/Allkin-Regular.ttf",
+      "bytes": 64860,
+      "sha256": "5699f97288b8d583082ba190312fff7e48c096bd54cfff6344b15c3dbec9a75d"
+    },
+    {
+      "id": "allura",
+      "file": "assets/fonts/allura/font.ttf",
+      "licenseFile": "assets/fonts/allura/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/allura/Allura-Regular.ttf",
+      "bytes": 246632,
+      "sha256": "9c142b2e515832c0dfc4ff8b8ea18f40314943bf937b72e2b23c4661bac14cc6"
+    },
+    {
+      "id": "almarai",
+      "file": "assets/fonts/almarai/font.ttf",
+      "licenseFile": "assets/fonts/almarai/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/almarai/Almarai-Regular.ttf",
+      "bytes": 152824,
+      "sha256": "5b5cad33c8e5922083728d271cdcda91f96ba291f1307eccc4f4ef732dc19622"
+    },
+    {
+      "id": "almendra",
+      "file": "assets/fonts/almendra/font.ttf",
+      "licenseFile": "assets/fonts/almendra/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/almendra/Almendra-Regular.ttf",
+      "bytes": 68684,
+      "sha256": "b127a6121209353b53da9ce73bf9d350f74190d8384c28ede179e4fb9440f946"
+    },
+    {
+      "id": "almendradisplay",
+      "file": "assets/fonts/almendradisplay/font.ttf",
+      "licenseFile": "assets/fonts/almendradisplay/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/almendradisplay/AlmendraDisplay-Regular.ttf",
+      "bytes": 39264,
+      "sha256": "04b543a9e7bfe39262e47d47ae7ec6a04166ce2d05383a911b256cfcb783383f"
+    },
+    {
+      "id": "almendrasc",
+      "file": "assets/fonts/almendrasc/font.ttf",
+      "licenseFile": "assets/fonts/almendrasc/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/almendrasc/AlmendraSC-Regular.ttf",
+      "bytes": 35988,
+      "sha256": "dca733b5b03e4ea52c666365777c8f6b360d55de04efc9d834cf9f82b68308be"
+    },
+    {
+      "id": "alumnisans",
+      "file": "assets/fonts/alumnisans/font.ttf",
+      "licenseFile": "assets/fonts/alumnisans/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alumnisans/AlumniSans-Italic[wght].ttf",
+      "bytes": 140320,
+      "sha256": "2ad29364c0841c2057eee44b3d13deb2af74d3f13e14bc519a8dfd4142c1ad54"
+    },
+    {
+      "id": "alumnisanscollegiateone",
+      "file": "assets/fonts/alumnisanscollegiateone/font.ttf",
+      "licenseFile": "assets/fonts/alumnisanscollegiateone/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alumnisanscollegiateone/AlumniSansCollegiateOne-Regular.ttf",
+      "bytes": 163484,
+      "sha256": "9bd48b280391794c7a5aea97476b25051b4705c7963e4b63b2c84876db31b59b"
+    },
+    {
+      "id": "alumnisanscollegiateonesc",
+      "file": "assets/fonts/alumnisanscollegiateonesc/font.ttf",
+      "licenseFile": "assets/fonts/alumnisanscollegiateonesc/OFL.txt",
+      "source": "https://github.com/google/fonts/blob/main/ofl/alumnisanscollegiateonesc/AlumniSansCollegiateOneSC-Regular.ttf",
+      "bytes": 145920,
+      "sha256": "dae9c9d91919a15c3bf226538a5dc2bab1bc108d685bdaea3232979cc100de53"
+    },
+    {
       "id": "amiri",
       "file": "assets/fonts/amiri/font.ttf",
       "licenseFile": "assets/fonts/amiri/OFL.txt",
